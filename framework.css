@@ -127,7 +127,7 @@
         font-size: 1rem;
     }
     .nav-list li {
-        margin-right: .3125rem!important;
+        margin-right: .625rem!important;
     }
     .logo {
         display: none;
@@ -164,6 +164,19 @@
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
 }
+}
+@media (min-width: 17.5rem) and (max-width: 26.125rem){
+    .nav-list li {
+        margin-right: .5rem!important;
+    }
+    .nav-list li a {
+        font-size: .8125rem!important;
+    }
+    button[type="submit"] {
+        margin-right: .3125rem!important;
+        padding: .9375rem!important;
+        font-size: .8125rem!important;
+    }
 }
 @media (max-width: 72.6875rem) {
     .section-two > div {
